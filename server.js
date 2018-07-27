@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 	res.render('home.hbs', {
 		message: 'Welcome Home, MOFO!',
 		pageTitle: 'Home'
-	})
+	});
 });
 
 app.get('/about', (req, res) => {
